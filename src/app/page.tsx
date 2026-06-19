@@ -28,6 +28,13 @@ export default function Home() {
         style={{ animationDelay: '4s' }}
       ></div>
 
+      {/* Background Watermark */}
+      <div className="pointer-events-none fixed inset-0 flex items-center justify-center z-0 overflow-hidden">
+        <h1 className="text-[8vw] md:text-[10vw] font-black text-white/[0.02] whitespace-nowrap select-none rotate-[-12deg] tracking-tighter">
+          REPORTS INSPECTION
+        </h1>
+      </div>
+
       <div className="w-full max-w-5xl z-10 space-y-8 animate-fade-in">
         
         {/* Navigation Header */}
